@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web app</title>
+	<!-- 
+	-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<meta charset="utf-8">
+</head>
+<body class="container">
+<header>
+		<nav class="yuvi">
+		<ul>
+
+			<li><a href="home.html">Home</a></li>
+			<li><a href="courses.html">Courses</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+
+		</ul>
+
+	</nav>
+	<img src="image.jpg">
+	<h1>Home</h1>
+</header>
+<div class="loginform bordered" >
+
+<section id="main">
+	hello <em>world</em> i m <b>here</b>
+
+	<form id="loginform">
+		<label for= "username">username : </label>
+		<input type="text" name="username" id="username"> <br>
+		<label for= "password">password : </label>
+		<input type="password" name="password" id="password"><br>
+		<input type="checkbox" name="remember" id="remember">
+		<label for= "remember">remember me </label><br>
+		<div id="errorshown"></div>
+		<input type="submit" name="loginbutton" >
+		<input type="reset" name="cancelbutton" value ="cancel"><br>
+		<br>
+
+	</form>
+	
+	<div id="loggedin">
+		<p>you are logged in</p>
+		<button id="logoutbutton">Logout</button>
+	</div>
+</div>
+	<div id="resultlist">
+		<button id="togglebutton">hide</button>
+		<div id="results">
+	here is the full list of courses.
+         </div>
+</div>
+
+</section>
+</div>
+
+
+<footer>
+	&copy; abhishek singh
+
+</footer>
+
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="java.js">
+
+
+</script>
+
+</body>
+
+</html>

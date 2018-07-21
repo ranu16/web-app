@@ -1,0 +1,118 @@
+header{
+		background-color: #7ecbf3; border: 1px solid black; font-family: arial, helvetica, sans-serif;
+
+	}
+	footer{
+		margin-top: 20px;
+		border: 2px solid black;
+		border-radius: 5px;
+		background-color: #7ecbf3;
+	}
+	body{
+
+		background-color: #007fc0;
+		display: inline-block;
+	}
+
+	section{
+		margin-top: 20px;
+		display: inline-block;
+		background-color: white;
+		
+	}
+	.loginform label{
+		font-weight: bold;
+		font-size: 15px;
+		font-family: sans-serif;
+
+	}
+
+	
+    .loginform input[type=text]{
+		padding-right: 100px;
+		margin: 5px;
+
+	}
+	.loginform input[type=password]{
+		padding-right: 100px;
+		margin: 5px;
+
+	}
+	.loginform input[type=submit],#togglebutton,#logoutbutton{
+		margin: 10px;
+		padding-right: 30px;
+		background-color: blue;
+		color: white;
+		border-radius:8px;
+
+	}
+	.loginform input[type=reset]{
+		margin: 10px;
+		padding-right: 30px;
+		background-color: red;
+		color: white;
+		border-radius:8px;
+
+	}
+	.container{
+		margin: 0 auto;
+		width: 100%;
+		display: inline-block;
+	}
+	#main{
+		padding: 2px;
+		margin: 2px;
+		display: inline-block;
+		vertical-align: top;
+		background-color: white;
+		width:100% ;
+	}
+
+	nav{
+		float: right;
+
+	}
+	ul li{
+		text-decoration-style: none;
+		display: inline-block;
+		padding: 10px;
+		background-color: green;
+
+	}
+	.abhishek{
+		margin: 5px;
+		border: 1px solid #666;
+
+	}
+	.title{
+		font-size: 30px;
+		font-style: italic;
+	}
+
+	a{
+		color: white;
+	}
+	#togglebutton{
+		display: inline-block;
+		vertical-align: top;
+	}
+	#results{
+		display: inline-block;
+	}
+	#errorshown{
+		color: red;
+		font-size: 15px;
+		margin-bottom: 5px;
+		margin-top: 1px;
+	}
+	#loggedin{
+		display: none;
+	}
+	#resultlist{
+		margin: 5px;
+		margin-top: 5px;
+		padding: 2px;
+		font-size: 20px;
+		font-weight: bold;
+		display: inline-block;
+	}
